@@ -1,11 +1,11 @@
-var seleniumServer = require('selenium-server')
-var phantomjs = require('phantomjs-prebuilt')
-var chromedriver = require('chromedriver')
+var seleniumServer = require('selenium-server');
+var phantomjs = require('phantomjs-prebuilt');
+var chromedriver = require('chromedriver');
 
 module.exports = {
-  src_folders: 'tests',
+  src_folders: 'tests/scenarios',
   output_folder: 'reports',
-  custom_commands_path: '',
+  custom_commands_path: 'tests/customCommands',
   custom_assertions_path: '',
   page_objects_path: '',
   live_output: false,
